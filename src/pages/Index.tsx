@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { CourseHero } from "@/components/CourseHero";
+import { WhatMakesDifferent } from "@/components/WhatMakesDifferent";
+import { WhatYouLearn } from "@/components/WhatYouLearn";
+import { Testimonials } from "@/components/Testimonials";
+import { EmailSignup } from "@/components/EmailSignup";
+import { AboutAuthor } from "@/components/AboutAuthor";
+import { MediaCoverage } from "@/components/MediaCoverage";
+import { SupportSection } from "@/components/SupportSection";
+import { CallToAction } from "@/components/CallToAction";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <CourseHero />
+      <WhatMakesDifferent />
+      <WhatYouLearn />
+      <Testimonials />
+      <EmailSignup />
+      <AboutAuthor />
+      <MediaCoverage />
+      <SupportSection />
+      <CallToAction />
     </div>
   );
 };
