@@ -5,7 +5,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { EmailSignup } from "@/components/EmailSignup";
 import { AboutAuthor } from "@/components/AboutAuthor";
 import { MediaCoverage } from "@/components/MediaCoverage";
-import { CallToAction } from "@/components/CallToAction";
+
 
 const Index = () => {
   return (
@@ -17,7 +17,7 @@ const Index = () => {
       <EmailSignup />
       <AboutAuthor />
       <MediaCoverage />
-      <CallToAction />
+      
     </div>
   );
 };
