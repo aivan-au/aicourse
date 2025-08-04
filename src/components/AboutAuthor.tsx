@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import instructorImage from "@/assets/instructor-portrait.jpg";
+
 
 export const AboutAuthor = () => {
   return (
@@ -10,13 +10,23 @@ export const AboutAuthor = () => {
         
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
           <Avatar className="w-32 h-32 flex-shrink-0">
-            <AvatarImage src={instructorImage} alt="Ivan Smirnov" />
+            <AvatarImage src="/lovable-uploads/7e8f6f04-6059-4012-9587-00c2d6b26fc7.png" alt="Ivan Smirnov" />
             <AvatarFallback className="text-2xl">IS</AvatarFallback>
           </Avatar>
           
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-xl font-bold mb-2 text-foreground">Ivan Smirnov is blah-blah academic credentials</h3>
-            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">And blah-blah teaching credentials</p>
+            <h3 className="text-xl font-bold mb-4 text-foreground">Ivan Smirnov</h3>
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>
+                Ivan Smirnov is a computational social scientist at the University of Technology Sydney, where he conducts research at the interface of AI and education and guides HDR students in using Generative AI for research. He is also an External Faculty Member at the Complexity Science Hub, Vienna.
+              </p>
+              <p>
+                His research has been presented at flagship conferences in his such as IC2S2 and ICWSM, published in leading journals including Proceedings of the National Academy of Sciences and EPJ Data Science, and featured in major media outlets including ABC TV, MIT Technology Review, and The Times.
+              </p>
+              <p>
+                Beyond research, Ivan is committed to empowering the next generation of scientists through teaching. He has taught across interdisciplinary programs in four countries, making technical concepts accessible to students from diverse backgrounds spanning philosophy to computer science.
+              </p>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
               <Button variant="outline" size="sm" asChild>
