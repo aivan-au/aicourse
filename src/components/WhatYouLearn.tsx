@@ -4,22 +4,22 @@ const modules = [
   {
     title: "Introduction to GenAI technologies",
     color: "bg-course-orange",
-    description: "Learn fundamental explanations of technologies underlying artificial intelligence and how it relates to conceptual understandings."
+    description: "Non-technical explanations that provide conceptual understanding of the technologies underlying modern GenAI"
   },
   {
-    title: "Strength and weakness of GenAI",
+    title: "Strengths and weaknesses of GenAI",
     color: "bg-course-blue", 
-    description: "Understanding when GenAI would bring you a lot of aid, when it may assist but you should be cautious about verifying socially useful."
+    description: "Discussing when GenAI can be extremely helpful and when you need to be cautious"
   },
   {
     title: "Use cases in research",
     color: "bg-course-green",
-    description: "Learn the generations of realistic example use in this domain. Step-by-step analysis that guides your journey."
+    description: "From idea generation and data analysis to communicating results and supporting your PhD journey"
   },
   {
     title: "Ethical considerations",
     color: "bg-course-pink",
-    description: "Learn to make sure that you not only can should look for you should look into without being responsible."
+    description: "How to make sure that you use GenAI tools not only efficiently but also responsibly"
   }
 ];
 

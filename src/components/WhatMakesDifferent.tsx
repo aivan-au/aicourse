@@ -6,15 +6,15 @@ export const WhatMakesDifferent = () => {
         
         <div className="max-w-none">
           <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-            The aim of the course is to be accessible for learners from all disciplines without sacrificing conceptual depth. 
+            The aim of the course is to be accessible to learners from all disciplines without sacrificing conceptual depth. 
             The content draws directly from research papers and discusses the practical applications of their findings.
           </p>
           
           <p className="text-lg leading-relaxed text-muted-foreground mb-8">
-            Check out the video if you want to learn more about course philosophy.
+            Check out the video if you want to learn more about the course philosophy.
           </p>
           
-          <div className="bg-card border rounded-lg p-6 max-w-2xl mx-auto">
+          <div className="max-w-2xl mx-auto">
             <div className="aspect-video rounded-lg overflow-hidden">
               <iframe 
                 className="w-full h-full"
