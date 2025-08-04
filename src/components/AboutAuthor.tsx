@@ -19,8 +19,16 @@ export const AboutAuthor = () => {
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">And blah-blah teaching credentials</p>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-              <Button variant="outline" size="sm">Papers</Button>
-              <Button variant="outline" size="sm">LinkedIn</Button>
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://scholar.google.com/citations?hl=en&user=ZP9xvMUAAAAJ" target="_blank" rel="noopener noreferrer">
+                  Research
+                </a>
+              </Button>
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://www.linkedin.com/in/ibsmirnov/" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              </Button>
             </div>
           </div>
         </div>
