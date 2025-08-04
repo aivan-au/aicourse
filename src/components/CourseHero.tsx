@@ -18,7 +18,7 @@ export const CourseHero = () => {
         <div className="mb-12">
           
           
-          <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 leading-tight">
+          <h1 className="font-sans text-5xl md:text-7xl font-bold mb-4 leading-tight">
             Getting Started with{" "}
             <span className="bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
               GenAI
