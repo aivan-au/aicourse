@@ -1,15 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { useState } from "react";
+import { MailchimpForm } from "@/components/MailchimpForm";
 
 export const EmailSignup = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Email submitted:", email);
-    setEmail("");
-  };
 
   return (
     <section className="py-16 px-4 bg-gradient-section">
@@ -18,19 +9,11 @@ export const EmailSignup = () => {
           Join the waiting list and be the first to get access to an updated course
         </p>
         
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-          <Input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="flex-1"
-          />
-          <Button type="submit" size="lg" className="sm:w-auto">
-            Join the waiting list
-          </Button>
-        </form>
+        <MailchimpForm
+          buttonText="Join the waiting list"
+          placeholder="Email"
+          className="max-w-md mx-auto"
+        />
       </div>
     </section>
   );

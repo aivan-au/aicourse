@@ -1,14 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { useState } from "react";
+import { MailchimpForm } from "@/components/MailchimpForm";
 export const CourseHero = () => {
-  const [email, setEmail] = useState("");
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle email submission
-    console.log("Email submitted:", email);
-    setEmail("");
-  };
   return <section className="relative min-h-[80vh] flex items-center justify-center py-20 px-4 bg-cover bg-center bg-no-repeat" style={{
     backgroundImage: `url('/lovable-uploads/929ef441-645b-40f9-9b04-bdc0a6442cd5.png')`
   }}>
@@ -35,12 +26,14 @@ export const CourseHero = () => {
         <div className="max-w-2xl mx-auto mb-12">
           <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waiting list and be the first to get access</p>
           
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
-            <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} required className="flex-1 h-12 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm" />
-            <Button type="submit" variant="secondary" size="lg" className="h-12 px-8 bg-white text-primary hover:bg-white/90 font-semibold">
-              Get Early Access
-            </Button>
-          </form>
+          <MailchimpForm
+            buttonText="Get Early Access"
+            placeholder="Enter your email"
+            className="max-w-lg mx-auto"
+            inputClassName="h-12 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm"
+            buttonClassName="h-12 px-8 bg-white text-primary hover:bg-white/90 font-semibold"
+            buttonVariant="secondary"
+          />
           
           
         </div>
