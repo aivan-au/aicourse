@@ -25,7 +25,7 @@ const modules = [
 
 export const WhatYouLearn = () => {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-16 px-4 bg-gradient-section">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12 text-foreground">What you will learn</h2>
         
