@@ -27,14 +27,14 @@ export const WhatYouLearn = () => {
   return (
     <section className="py-16 px-4 bg-gradient-section">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">What you will learn</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">What you will learn</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {modules.map((module, index) => (
             <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
               <CardContent className="p-6">
                 <div className={`w-full h-3 ${module.color} rounded-full mb-4`}></div>
-                <h3 className="font-bold text-lg mb-3 leading-tight">{module.title}</h3>
+                <h3 className="font-bold text-lg mb-3 leading-tight text-foreground">{module.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{module.description}</p>
               </CardContent>
             </Card>

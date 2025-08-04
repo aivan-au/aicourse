@@ -2,15 +2,15 @@ export const WhatMakesDifferent = () => {
   return (
     <section className="py-16 px-4 bg-background">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8">What makes it different</h2>
+        <h2 className="text-3xl font-bold mb-8 text-foreground">What makes it different</h2>
         
-        <div className="prose prose-lg max-w-none text-muted-foreground">
-          <p className="mb-6">
+        <div className="max-w-none">
+          <p className="text-lg leading-relaxed text-muted-foreground mb-6">
             The aim of the course is to be accessible for learners from all disciplines without sacrificing conceptual depth. 
             The content draws directly from research papers and discusses the practical applications of their findings.
           </p>
           
-          <p className="mb-8">
+          <p className="text-lg leading-relaxed text-muted-foreground mb-8">
             Check out the video if you want to learn more about course philosophy.
           </p>
           
