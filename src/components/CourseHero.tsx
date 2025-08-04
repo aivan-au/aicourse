@@ -13,8 +13,15 @@ export const CourseHero = () => {
   };
 
   return (
-    <section className="bg-gradient-hero min-h-[80vh] flex items-center justify-center py-20 px-4">
-      <div className="max-w-5xl mx-auto text-center text-white">
+    <section 
+      className="relative min-h-[80vh] flex items-center justify-center py-20 px-4 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `url('/lovable-uploads/929ef441-645b-40f9-9b04-bdc0a6442cd5.png')`
+      }}
+    >
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-[1px]"></div>
+      <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
         <div className="mb-12">
           <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-8">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
