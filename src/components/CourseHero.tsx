@@ -13,33 +13,50 @@ export const CourseHero = () => {
   };
 
   return (
-    <section className="bg-gradient-section py-16 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-8">
-          <div className="inline-block border-2 border-foreground rounded-lg px-6 py-3 mb-6">
-            <h1 className="text-2xl font-bold">Getting Started with GenAI</h1>
-            <span className="text-sm text-muted-foreground">4th edition</span>
+    <section className="bg-gradient-hero min-h-[80vh] flex items-center justify-center py-20 px-4">
+      <div className="max-w-5xl mx-auto text-center text-white">
+        <div className="mb-12">
+          <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-8">
+            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            <span className="text-sm font-medium">New Edition Available</span>
+          </div>
+          
+          <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 leading-tight">
+            Getting Started with{" "}
+            <span className="bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              GenAI
+            </span>
+          </h1>
+          
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <div className="h-px bg-white/30 flex-1 max-w-16"></div>
+            <span className="text-xl font-serif text-white/80">4th Edition</span>
+            <div className="h-px bg-white/30 flex-1 max-w-16"></div>
           </div>
         </div>
         
-        <div className="max-w-2xl mx-auto mb-8">
-          <p className="text-lg text-muted-foreground mb-6">
-            The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waiting list and be the first to get access.
+        <div className="max-w-2xl mx-auto mb-12">
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            The definitive guide to Generative AI in Research. Join thousands of researchers who've transformed their work with cutting-edge AI tools.
           </p>
           
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
             <Input
               type="email"
-              placeholder="Email"
+              placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1"
+              className="flex-1 h-12 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm"
             />
-            <Button type="submit" size="lg" className="sm:w-auto">
-              Join the waiting list
+            <Button type="submit" variant="secondary" size="lg" className="h-12 px-8 bg-white text-primary hover:bg-white/90 font-semibold">
+              Get Early Access
             </Button>
           </form>
+          
+          <p className="text-sm text-white/70 mt-3">
+            Be the first to access the 4th edition when it launches
+          </p>
         </div>
       </div>
     </section>
