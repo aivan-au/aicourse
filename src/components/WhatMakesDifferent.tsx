@@ -1,6 +1,6 @@
 export const WhatMakesDifferent = () => {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-16 px-4 bg-gradient-section">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-foreground">What makes it different</h2>
         
