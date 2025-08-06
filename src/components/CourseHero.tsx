@@ -26,14 +26,11 @@ export const CourseHero = () => {
         <div className="max-w-2xl mx-auto mb-12">
           <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waiting list and be the first to get access</p>
           
-          <MailchimpForm
-            buttonText="Get Early Access"
-            placeholder="Enter your email"
-            className="max-w-lg mx-auto"
-            inputClassName="h-12 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm"
-            buttonClassName="h-12 px-8 bg-white text-primary hover:bg-white/90 font-semibold"
-            buttonVariant="secondary"
-          />
+          <div className="flex justify-center">
+            <div dangerouslySetInnerHTML={{
+              __html: `<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="aivanau" data-color="#bc4749" data-emoji="🚀" data-font="Inter" data-text="Get Early Access" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>`
+            }} />
+          </div>
           
           
         </div>

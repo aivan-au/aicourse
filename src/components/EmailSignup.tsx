@@ -9,11 +9,11 @@ export const EmailSignup = () => {
           Join the waiting list and be the first to get access to the updated course
         </p>
         
-        <MailchimpForm
-          buttonText="Get Early Access"
-          placeholder="Email"
-          className="max-w-md mx-auto"
-        />
+        <div className="flex justify-center">
+          <div dangerouslySetInnerHTML={{
+            __html: `<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="aivanau" data-color="#bc4749" data-emoji="🚀" data-font="Inter" data-text="Get Early Access" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>`
+          }} />
+        </div>
       </div>
     </section>
   );
