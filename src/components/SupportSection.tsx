@@ -13,9 +13,9 @@ export const SupportSection = () => {
             Your support would help the next generation of doctoral researchers use AI tools effectively and ethically.
           </p>
           
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center">
             <a href="https://www.buymeacoffee.com/aivanau">
-              <img src="https://img.buymeacoffee.com/button-api/?slug=aivanau&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" alt="Buy Me A Coffee" />
+              <img src="https://img.buymeacoffee.com/button-api/?text=Get Early Access&emoji=🚀&slug=aivanau&button_colour=bc4749&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" alt="Get Early Access" />
             </a>
           </div>
         </div>

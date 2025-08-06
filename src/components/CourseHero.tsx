@@ -24,7 +24,7 @@ export const CourseHero = () => {
         </div>
         
         <div className="max-w-2xl mx-auto mb-12">
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waiting list and be the first to get access</p>
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Support the course and be the first to get access</p>
           
           <div className="flex justify-center">
             <a href="https://www.buymeacoffee.com/aivanau">
