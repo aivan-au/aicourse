@@ -10,9 +10,9 @@ export const EmailSignup = () => {
         </p>
         
         <div className="flex justify-center">
-          <div dangerouslySetInnerHTML={{
-            __html: `<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="aivanau" data-color="#bc4749" data-emoji="🚀" data-font="Inter" data-text="Get Early Access" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>`
-          }} />
+          <a href="https://www.buymeacoffee.com/aivanau">
+            <img src="https://img.buymeacoffee.com/button-api/?text=Get Early Access&emoji=🚀&slug=aivanau&button_colour=bc4749&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" alt="Get Early Access" />
+          </a>
         </div>
       </div>
     </section>

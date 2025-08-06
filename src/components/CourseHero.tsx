@@ -27,9 +27,9 @@ export const CourseHero = () => {
           <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waiting list and be the first to get access</p>
           
           <div className="flex justify-center">
-            <div dangerouslySetInnerHTML={{
-              __html: `<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="aivanau" data-color="#bc4749" data-emoji="🚀" data-font="Inter" data-text="Get Early Access" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>`
-            }} />
+            <a href="https://www.buymeacoffee.com/aivanau">
+              <img src="https://img.buymeacoffee.com/button-api/?text=Get Early Access&emoji=🚀&slug=aivanau&button_colour=bc4749&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" alt="Get Early Access" />
+            </a>
           </div>
           
           
