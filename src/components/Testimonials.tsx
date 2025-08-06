@@ -7,13 +7,13 @@ export const Testimonials = () => {
       name: "Yuveena Gopalan",
       title: "PhD Candidate (Learning Analytics)",
       photo: yuveenaPhoto,
-      text: "This course provided invaluable insights into research methodologies and practical skills that have transformed my approach to academic writing. The structured approach and clear guidance made complex concepts accessible and actionable."
+      text: "I found the course incredibly insightful, it not only presented examples grounded in relevant literature but also explored the inner workings of Generative AI in a way that made complex ideas easy to follow. What really stood out to me were the practical demonstrations. Seeing examples on utilising synthetic samples and digital clones gave me an understanding into potential applications and ways in which it could be applied in my own work."
     },
     {
       name: "Bernardo Mendonca Severiano", 
-      title: "PhD Candidate (Sustainable Futures)",
+      title: "PhD Candidate (Institute for Sustainable Futures)",
       photo: bernardoPhoto,
-      text: "An exceptional course that bridges the gap between theoretical knowledge and practical application. The tools and techniques learned here have significantly improved my research productivity and academic output quality."
+      text: "Ivan brings a great blend of technical depth and accessible communication to the topic of Generative AI. His sessions sparked engaging discussions across disciplines and helped us reflect critically on both the opportunities and limitations of these tools in academic contexts. Ivan's insights were both intellectually rigorous and action-oriented. A valuable contribution to our institution's thinking on emerging technologies and sustainable futures."
     }
   ];
 
