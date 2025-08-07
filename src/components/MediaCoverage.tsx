@@ -22,7 +22,7 @@ export const MediaCoverage = () => {
           className="inline-block max-w-3xl hover:opacity-90 transition-opacity duration-200"
         >
           <img 
-            src="/lovable-uploads/d681213b-2eea-4352-bf61-b272d311c4ec.png" 
+            src="/images/d681213b-2eea-4352-bf61-b272d311c4ec.png" 
             alt="Australian Technology Network article about Dr Ivan Smirnov"
             className="w-full h-auto rounded-lg shadow-lg"
           />

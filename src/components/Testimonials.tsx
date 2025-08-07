@@ -1,5 +1,5 @@
-const yuveenaPhoto = "/lovable-uploads/c61d9634-2a1e-452b-9423-911065b5028f.png";
-const bernardoPhoto = "/lovable-uploads/92acadea-0c34-4e8e-babc-7aa1b7f92857.png";
+const yuveenaPhoto = "/images/c61d9634-2a1e-452b-9423-911065b5028f.png";
+const bernardoPhoto = "/images/92acadea-0c34-4e8e-babc-7aa1b7f92857.png";
 
 export const Testimonials = () => {
   const testimonials = [

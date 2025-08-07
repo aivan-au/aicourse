@@ -1,5 +1,3 @@
-import { MailchimpForm } from "@/components/MailchimpForm";
-
 export const EmailSignup = () => {
 
   return (

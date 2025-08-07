@@ -10,7 +10,7 @@ export const AboutAuthor = () => {
         
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
           <Avatar className="w-32 h-32 flex-shrink-0">
-            <AvatarImage src="/lovable-uploads/7e8f6f04-6059-4012-9587-00c2d6b26fc7.png" alt="Ivan Smirnov" />
+            <AvatarImage src="/images/7e8f6f04-6059-4012-9587-00c2d6b26fc7.png" alt="Ivan Smirnov" />
             <AvatarFallback className="text-2xl">IS</AvatarFallback>
           </Avatar>
           

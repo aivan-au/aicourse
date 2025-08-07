@@ -1,7 +1,6 @@
-import { MailchimpForm } from "@/components/MailchimpForm";
 export const CourseHero = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center py-20 px-4 bg-cover bg-center bg-no-repeat" style={{
-    backgroundImage: `url('/lovable-uploads/929ef441-645b-40f9-9b04-bdc0a6442cd5.png')`
+    backgroundImage: `url('/images/929ef441-645b-40f9-9b04-bdc0a6442cd5.png')`
   }}>
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]"></div>
