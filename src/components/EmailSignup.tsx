@@ -10,8 +10,12 @@ export const EmailSignup = () => {
         </p>
         
         <div className="flex justify-center">
-          <a href="https://www.buymeacoffee.com/aivanau">
-            <img src="https://img.buymeacoffee.com/button-api/?text=Get Early Access&emoji=🚀&slug=aivanau&button_colour=bc4749&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" alt="Get Early Access" />
+          <a 
+            href="https://www.buymeacoffee.com/aivanau"
+            className="inline-flex items-center gap-2 bg-[#bc4749] hover:bg-[#a63f41] text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg"
+          >
+            <span className="text-lg">🚀</span>
+            Get Early Access
           </a>
         </div>
       </div>

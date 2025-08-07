@@ -27,8 +27,12 @@ export const CourseHero = () => {
           <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Support the course and be the first to get access</p>
           
           <div className="flex justify-center">
-            <a href="https://www.buymeacoffee.com/aivanau">
-              <img src="https://img.buymeacoffee.com/button-api/?text=Get Early Access&emoji=🚀&slug=aivanau&button_colour=bc4749&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" alt="Get Early Access" />
+            <a 
+              href="https://www.buymeacoffee.com/aivanau"
+              className="inline-flex items-center gap-2 bg-[#bc4749] hover:bg-[#a63f41] text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg"
+            >
+              <span className="text-lg">🚀</span>
+              Get Early Access
             </a>
           </div>
           
