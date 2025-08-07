@@ -14,7 +14,7 @@ export const AboutAuthor = () => {
             <AvatarFallback className="text-2xl">IS</AvatarFallback>
           </Avatar>
           
-          <div className="flex-1 text-center md:text-left">
+          <div className="flex-1 text-left">
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-6 text-base">
               <p>
                 Ivan Smirnov is a computational social scientist at the University of Technology Sydney, where he conducts research at the interface of AI and education and guides HDR students in using Generative AI for research. He is also an External Faculty Member at the Complexity Science Hub, Vienna.
