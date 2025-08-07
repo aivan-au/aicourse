@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# GenAI Course Landing Page
 
-## Project info
+This repository contains the landing page for "Getting Started with Generative AI in Research" - 4th Edition course by Ivan Smirnov.
 
-**URL**: https://lovable.dev/projects/167796b1-0d11-44ed-bdeb-4c03ce093462
+## 🚀 Live Site
 
-## How can I edit this code?
+Visit the live site at: [https://aivan-au.github.io/aicourse/](https://aivan-au.github.io/aicourse/)
 
-There are several ways of editing your application.
+## 📖 About
 
-**Use Lovable**
+This is a modern React-based landing page showcasing the upcoming 4th edition of the GenAI course. The page includes:
+- Course hero section
+- Course highlights and differentiators  
+- Learning outcomes
+- Student testimonials
+- Email signup for early access
+- Author information
+- Media coverage
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/167796b1-0d11-44ed-bdeb-4c03ce093462) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 🛠️ Technologies
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and dev server
+- **React 18** - UI library with TypeScript
+- **shadcn/ui** - Modern component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
 
-## How can I deploy this project?
+## 🏃‍♂️ Running Locally
 
-Simply open [Lovable](https://lovable.dev/projects/167796b1-0d11-44ed-bdeb-4c03ce093462) and click on Share -> Publish.
+```bash
+# Install dependencies
+npm install
 
-## Can I connect a custom domain to my Lovable project?
+# Start development server
+npm run dev
 
-Yes, you can!
+# Open http://localhost:8080
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🚀 Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The site is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the main branch.
+
+To deploy manually:
+```bash
+npm run build
+npm run deploy
+```
