@@ -4,7 +4,7 @@ This repository contains the landing page for "Getting Started with Generative A
 
 ## 🚀 Live Site
 
-Visit the live site at: [https://aivan-au.github.io/aicourse/](https://aivan-au.github.io/aicourse/)
+Visit the live site at: [https://aivan-au.github.io/](https://aivan-au.github.io/)
 
 ## 📖 About
 
