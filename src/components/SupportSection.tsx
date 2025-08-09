@@ -18,8 +18,8 @@ export const SupportSection = () => {
               href="https://www.buymeacoffee.com/aivanau"
               className="inline-flex items-center gap-2 bg-[#bc4749] hover:bg-[#a63f41] text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg"
             >
-              <span className="text-lg">🚀</span>
-              Get Early Access
+              <span className="text-lg">🤍</span>
+              Support the course
             </a>
           </div>
         </div>
