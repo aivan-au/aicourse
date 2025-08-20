@@ -33,10 +33,6 @@ export default function ThankYou() {
           <div className="space-y-3 text-left">
             <div className="flex items-start gap-3">
               <span className="text-green-500 mt-1">✓</span>
-              <p>You'll receive a confirmation email shortly</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <span className="text-green-500 mt-1">✓</span>
               <p>You'll be the first to know when the course is available</p>
             </div>
             <div className="flex items-start gap-3">
