@@ -17,7 +17,6 @@ export default function Home() {
       <EmailSignup />
       <AboutAuthor />
       <MediaCoverage />
-      <SupportSection />
     </div>
   );
 }
