@@ -9,22 +9,21 @@ export const CourseHero = () => {
           
           
           <h1 className="font-sans text-5xl md:text-7xl font-bold hero-title-spacing leading-tight">
-            Getting Started with{" "}
-            <span className="text-white">
-              GenAI
-            </span>
+            Getting Started with&nbsp;GenAI
           </h1>
+          
+          <p className="text-3xl md:text-4xl font-light text-white/90 mt-6 mb-8 tracking-wide">
+            online course for doctoral students and early&nbsp;career&nbsp;researchers
+          </p>
           
           <div className="flex items-center justify-center gap-4 hero-divider-spacing">
             <div className="h-px bg-white/30 flex-1 max-w-16"></div>
-            <span className="text-2xl font-sans font-medium text-white/90">4th Edition</span>
+            <span className="text-xl font-sans font-medium text-white/90">4th Edition</span>
             <div className="h-px bg-white/30 flex-1 max-w-16"></div>
           </div>
         </div>
         
         <div className="max-w-2xl mx-auto mb-12">
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">The 4th edition of "Getting Started with Generative AI in Research" is coming soon. Join the waitlist and be the first to get access</p>
-          
           <div className="flex justify-center">
             <a 
               href="https://mailchi.mp/a49e49a187cb/getting-started-with-genai-in-research"
