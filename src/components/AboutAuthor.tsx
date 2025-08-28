@@ -21,7 +21,7 @@ export const AboutAuthor = () => {
                 His research has been presented at flagship conferences in his field such as IC2S2 and ICWSM, published in leading journals including Proceedings of the National Academy of Sciences and EPJ Data Science, and featured in major media outlets including ABC TV, MIT Technology Review, and The Times.
               </p>
               <p>
-                Beyond research, Ivan is committed to empowering the next generation of scientists through teaching. He has taught across interdisciplinary programs in four countries, making technical concepts accessible to students from diverse backgrounds spanning philosophy to computer science.
+                Beyond research, Ivan is committed to empowering the next generation of scientists through teaching. He has taught across interdisciplinary programs in four countries, making technical concepts accessible to students from diverse backgrounds from philosophy to computer science.
               </p>
             </div>
             
