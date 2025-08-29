@@ -222,20 +222,33 @@ a.inline-flex:hover {
   text-decoration: none !important;
 }
 
-/* Specific button styling */
+/* Specific button styling - default size */
 .bg-\[\#bc4749\] {
   background-color: #bc4749 !important;
   color: white !important;
-  padding: 0.75rem 1.5rem !important;
-  font-size: 1rem !important;
-  line-height: 1.5 !important;
-  min-height: 48px !important;
   text-decoration: none !important;
 }
 
 .bg-\[\#bc4749\]:hover {
   background-color: #a63f41 !important;
   text-decoration: none !important;
+}
+
+/* Default button size (for EmailSignup and other components) */
+.bg-\[\#bc4749\]:not(.hero-button) {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  min-height: 48px !important;
+}
+
+/* Hero button - larger size */
+.hero-button.bg-\[\#bc4749\] {
+  padding: 1.5rem 3rem !important;
+  font-size: 1.5rem !important;
+  line-height: 1.75rem !important;
+  border-radius: 1rem !important;
+  gap: 1rem !important;
 }
 
 /* Outline buttons for About Author section */

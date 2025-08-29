@@ -1,3 +1,5 @@
+import { Rocket } from 'lucide-react';
+
 export const EmailSignup = () => {
 
   return (
@@ -12,7 +14,7 @@ export const EmailSignup = () => {
             href="https://mailchi.mp/a49e49a187cb/getting-started-with-genai-in-research"
             className="inline-flex items-center gap-2 bg-[#bc4749] hover:bg-[#a63f41] text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg"
           >
-            <span className="text-lg">🚀</span>
+            <Rocket className="w-5 h-5" />
             Get Early Access
           </a>
         </div>
